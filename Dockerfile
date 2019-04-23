@@ -1,4 +1,4 @@
-FROM linuxserver/mylar:amd64-latest
+FROM lsiobase/python:3.9
 
 # set version label
 ARG BUILD_DATE
