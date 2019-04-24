@@ -18,7 +18,7 @@ RUN \
 	configparser \
 	html5lib \
 	'urllib3<1.25' \
-	charset \
+	chardet \
 	tzlocal && \
  echo "**** install app ****" && \
  if [ -z ${MYLAR_COMMIT+x} ]; then \
