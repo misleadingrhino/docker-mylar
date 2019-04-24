@@ -17,7 +17,7 @@ RUN \
 	comictagger \
 	configparser \
 	html5lib \
-	urllib3<1.25 \
+	'urllib3<1.25' \
 	charset \
 	tzlocal && \
  echo "**** install app ****" && \
