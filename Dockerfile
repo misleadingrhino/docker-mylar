@@ -17,6 +17,8 @@ RUN \
 	comictagger \
 	configparser \
 	html5lib \
+	urllib3 \
+	charset \
 	tzlocal && \
  echo "**** install app ****" && \
  if [ -z ${MYLAR_COMMIT+x} ]; then \
